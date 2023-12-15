@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg_infinity2.webp);
+    background-repeat: repeat-x;
+    background-color: #f9f7d2;
+    font-family: Tahoma;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    /* max-width: 1024px;
+    height: 530px;
+    background-image: url(./images/bg2.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+     */
+     
+    background-image: url(./images/bg2.webp);
+    max-width: 1024px;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.jogue-gitz{
+    margin: 0 auto;
+    position: relative;
+    top: 12px;
+    width: 369px;
+    height: 38px;
+}
+
+.logo{
+    position: relative;
+    top: 40px;
+    width: 364px;
+    height: 364px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav{
+    position: relative;
+    top: -55px;
+    width: 1074px;
+    background-image: url(./images/menu.webp);
+    background-repeat: no-repeat;
+    height: 188px;
+}
+nav ul{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    top: 98px;
+    left: 200px;
+}
+ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    color: #240c58;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff5816;
+}
+
+.menu-registro{
+    background: url(./images/painel.webp);
+    background-repeat: no-repeat;   
+    width: 973px;
+    height: 109px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-registro{
+    margin-top: 36px;
+}
+
+.players-online{
+    position: relative;
+    top: 7px;
+    right: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+.players-online h3{
+    color: rgb(32, 255, 32);
+}
+
+.meta-players{
+    font-size: 9px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 9px;
+    left: 22px;
+}
+
+.registro{
+    width: 400px;
+    position: relative;
+    top: 8px;
+    left: 70px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.registro p{
+    font-size: 13px;
+    position: relative;
+    left: 24px;
+}
+
+input{
+    width: 117px;
+    height: 31px;
+    margin: 7px;
+    border: 2px solid #FFF315;  
+}
+.container-form{
+    display: flex;
+    align-items: center;
+}
+
+.button-go{
+    width: 60px;
+    padding: 5px;
+}
+.sidebar-container{
+    position: relative;
+    right: 790px;
+    top: 200px;
+    width: 198px;
+    height: 244px;
+}
+.pulse {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+@keyframes pulse{   
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+
+    100% {
+        transform: scale(1.1);
+        filter: brightness(110%);
+    }
+}
+
+.sidebar-nav{
+    position: relative;
+    width: 198px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: url(./images/centro.webp);
+}
+
+.sidebar-nav::before{
+    position: relative;
+    top: -10px;
+    content: url(./images/topo.webp);
+}
+
+.sidebar-nav::after{
+    content: url(./images/footer.webp); 
+    position: relative;
+    top: 10px;
+}
+.sidebar-nav a{
+    color: #000;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #cd7e5f;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sidebar-nav li{
+    padding: 2px;
+}
+
+.news-container{
+    position: absolute;
+    left: 490px;
+    top: 670px;
+    width: 375px;
+    height: 147px;
+    background-image: url(./images/bg_news.webp);
+}
+
+.news{
+    position: relative;
+    left: 8px;
+    top: 9px;
+    width: 359px;
+    height: 126px;
+    border-radius: 12px;
+    background-image: url(./images/bg_news_center.webp);
+    background-repeat: no-repeat;
+}
+
+.card-noticias{ 
+    display: flex;
+    gap: 10px;
+    font-size: 11px;
+    width: 320px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+    padding-top: 10px;
+}
+
+.card-noticias img{
+    width: 36px;
+    height: 100%;
+}
+span{
+    color: red;
+}
+
+.font2{
+        font-size: 11px;
+}
